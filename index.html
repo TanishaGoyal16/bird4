@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-1.9.0.js"></script>
+    <script type="text/javascript" src="jquery.ebcaptcha.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="row" >
+        <div class="col-sm-4">
+<div class="header">
+    <h4> TATA POWER DELHI DISTRIBUTION LIMITED</h4>
+    <span>(A Tata Power and Delhi Government joint venture)<span>
+  </div>
+</div>
+<div class="col-sm-8 head">
+
+</div>
+</div>
+
+<div class="row">
+<div class="nav1">
+<div class="col-sm-9">
+   Welcome : BIRD 121BIRD
+</div>
+<div class="col-sm-3 nav">
+<a href="#">Home</a>|
+<a href="#">Logout</a>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="nav2">
+    <div class="col-sm-1">
+         Admin
+    </div>
+    <div class="col-sm-1">
+        Bird Request
+    </div>
+    <div class="col-sm-1">
+        Request Details
+    </div>
+    <div class="col-sm-1">
+        Search Bills
+    </div>
+    <div class="col-sm-1">
+        Reports
+    </div>
+    <div class="col-sm-7 ">
+        
+    </div>
+</div>
+</div>
+
+<div class="content">
+<div class="row">
+    <div class="col-sm-12 h2">
+       <h2>Bird Request</h2>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-6">
+        <div class="field">
+        <label for="P.o/W.o.#">P.o/W.o.#</label> 
+        &emsp;&nbsp; 
+        <input type="text" id="P.o/W.o.#" name="P.o/W.o.#">  <button  type="button" class="btn btn-primary">Continue</button>
+    </div>
+        <br>
+        <div class="field1">
+        <label for="Vendor Id">Vendor Id</label> 
+        &emsp;&nbsp;
+        <input type="text" id="Vendor Id" name="Vendor Id">&nbsp;<button  type="button" class="btn btn-primary">Go</button>&nbsp;<button  type="button" class="btn btn-primary">Vendor Deatils</button>&nbsp;<button  type="button" class="btn btn-primary">Update Vendor Details</button>
+    </div>
+        <br>
+        <div class="field">
+        <label for="Vendor Name">Vendor Name</label>  
+        <input style="width:380px" type="text" id="Vendor Name" name="Vendor Name">
+    </div>
+        <br>
+        <div class="field">
+        <label for="Address">Address</label>  
+        &emsp;&emsp;
+        <input style="width:380px" type="text" id="Address" name="Address">
+    </div>
+</div>
+
+    <div class="col-sm-4 field">
+            <h2 class="h2">Vendor Contact Details</h2>
+            <label for="Contact Person">Contact Person</label>  
+        <input style="width:180px" type="text" id="Contact Person" name="Contact Person">
+        <br>
+        <label for="Mobile">Mobile</label>  
+        &emsp;&emsp; &emsp;&nbsp;&nbsp;
+        <input style="width:180px" type="text" id="Mobile" name="Mobile">
+        <br>
+        <label for="Email">Email</label>  
+        <input  type="text" id="Email" name="Email">&nbsp;<button  type="button" class="btn btn-primary"> Add Vendor </button>
+         </div>
+    
+
+    <div class="col-sm-2 field2">
+        <h2 class="h2">Request Details</h2>
+        <label for="Bird No.">Bird No.</label>  
+        <input  type="text" id="Bird No." name="Bird No.">
+        <br>
+        <label for="Bird Recpt. Date">Bird Recpt. Date</label>  
+        <input  type="date" id="Bird Recpt. Date" name=" Bird Recpt. Date">
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12 h2">
+       <h2>Invoice Type</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-3 Required field">
+        <label for="type">Type</label>
+        
+        <select style="width:160px" name="type" id="type">
+            <option value="">----select-----</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+    </div>
+    <div class="col-sm-3 field">
+        <label  for="Subtype">SubType</label>
+        
+        <select style="width:180px" name="Subtype" id="Subtype">
+            <option value="">----select-----</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+    </div>
+    <div class="col-sm-3 field">
+        <label for="consumer">Consumer</label>
+         <select name="consumer" id="consumer">
+            <option value="">----select-----</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+    </div>
+    <div class="col-sm-3 field">
+        <label for="source">Source</label>
+        
+        <select style="width:180px"  name="source" id="source">
+            <option value="">----select-----</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+    </div>
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm-12">
+        <button  type="button" class="btn btn-primary"> Basic Details </button>
+        <button  type="button" class="btn btn-primary"> Notepad </button>
+        <button  type="button" class="btn btn-primary"> Forwarding </button>
+     <button  type="button" class="btn btn-primary"> Additional Details </button>
+     <button  type="button" class="btn btn-primary"> Request Details </button>
+ </div>
+</div>
+
+
+    <div class="row new">
+        <div class="col-sm-4 field1">
+            <label for="Order Date">Order Date</label>  
+     <input type="text" id="Order Date" name="Order Date">
+        </div>
+        <div class="col-sm-4 field1">
+            <label for="Order code">Order Code</label>
+    
+        <input type="text" id="Order code" name="Order code">
+        </div>
+        <div class="col-sm-4 field1">
+            <label for="Order Date">Order Value</label>
+    <input type="text" id="Order value" name="Order value">
+        </div>
+    </div>
+    
+    <div class="row new1">
+        <div class="col-sm-12 field3">
+            <label for="Invoice No">Invoice No</label>  
+            <input type="text" id="Invoice No" name="Invoice No">
+            <label for="Date">Date</label>
+            <input type="date" id="Date" name="Date">
+       
+      
+            <label for="Amount">Amount</label>
+           <input type="text" id="Amount" name="Amount">
+ 
+       
+            <label for="Submitted By">Submitted By</label>
+           <input type="text" id="Submitted By" name="Submitted By">
+
+           <label for="OPD No">OPD No</label>
+           <input type="text" id="OPD No" name="OPD No">
+    
+            <button  type="button" class="btn btn-primary">Add</button>
+            
+            <button  type="button" class="btn btn-primary">Get Employee No</button>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-sm-2 h2">
+           <h2>Added Invoice</h2>
+        </div>
+    </div>
+
+    <div class="row mt-2">
+    
+        <div class="col-sm-4">
+            <h2 class="h2">Click to add Encloser</h2>
+            <div class="scroll">
+                M-ORIGINAL BILL 
+                <br>
+                M-QUANTUM OF JE/SERVICES RENDERED
+                <br>
+                O-OTHER PREVALENT ANNEXURE/DOCUMENTS
+                <br>
+                M-QUANTUM OF JE/SERVICES RENDERED
+             </div>
+         </div>
+        
+         <div class="col-sm-4 ">
+            <h2 class="h2">First Level Forwarding</h2>
+       <div class="field3">
+            <label for="Department">Department</label>
+             <select style="width:250px"  name="Department" id="Department">
+                  <option value="">----select-----</option>
+                  <option value="saab">Saab</option>
+                  <option value="opel">Opel</option>
+                  <option value="audi">Audi</option>
+                </select>
+            <br>
+                <label for="User">User</label>
+                &emsp;&emsp;&emsp;
+               <select style="width:100px"  name="User" id="User">
+                <option value="">----select-----</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+              </select>
+            </div>
+            </div>
+         <div class="col-sm-4">
+            <h2 class="h2">Select Activity</h2>
+            <div class="scroll">
+                RETURNING BACK 
+                <br>
+                REQUEST CLOSURE
+                <br>
+                REFER TO NOTEPAD FOR FURTHER DETAILS
+                <br>
+                Prearation pf services Entry sheets
+             </div>
+    
+        </div>
+    <div class="row">
+        <div class="col-sm-12 button">
+            <button  type="button" class="btn btn-primary">Submit</button>
+            <button  type="button" class="btn btn-primary">Clear</button>
+            <button  type="button" class="btn btn-primary">Exit</button>
+        </div>
+    </div>
+    </div>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </body>
+    </html>
